@@ -20,7 +20,7 @@
 
       2). INSTANCE:
       
-      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1017168_21016_2_1.png" width="300px" caption="a">
+      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1017168_21016_2_1.png" width="300px"> | 样本视网膜图像
       <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png" width="300px">
       
 
