@@ -24,11 +24,11 @@
   <tr>
     <td>
       <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1017168_21016_2_1.png" width="300px">
-      <br>样本视网膜图像1
+      <br>1017168_21016_2_1.png
     </td>
     <td>
       <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1021021_21015_2_1.png" width="300px">
-      <br>样本视网膜图像2
+      <br>1021021_21015_2_1.png
     </td>
   </tr>
 </table>
