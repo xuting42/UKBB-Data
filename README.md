@@ -2,10 +2,12 @@
 
 ## 1. Dataset Overview:
    The UK Biobank is a large-scale, population-based cohort study involving over 500,000 UK residents aged 40–69 years. Recruitment took place between 2006 and 2010, during which participants completed extensive health questionnaires, underwent detailed physical assessments, and provided biological samples. The study tracked health-related events through data linkage to hospital admission records and mortality registries. In 2009, the UK Biobank introduced ophthalmic examinations to further expand the scope of the collected data[1].  
+   
    Homepage of the dataset： https://www.ukbiobank.ac.uk/
 
 ## 2. Our current dataset (continuously updated)：
    The data we currently possess mainly includes: Retinal images, basic information, and disease information.
+   
    The dataset path:  /scratch/users/nus/hongyu.h
 
    ### 1. Retianl images: /SERI_UKbiobank/1_Fundus_Images
@@ -33,6 +35,7 @@
   </tr>
 </table>
 
-   Interpretation of the naming format：  
+   Interpretation of the naming format： 
+   
    Taking the first retinal image as an example, 1017168:
 
