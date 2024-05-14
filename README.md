@@ -22,5 +22,6 @@
       
       ![image](https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png)
       ![image](https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png)
+      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png" width="100px">
       
 
