@@ -27,7 +27,7 @@
       <br>样本视网膜图像1
     </td>
     <td>
-      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png" width="300px">
+      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1021021_21015_2_1.png" width="300px">
       <br>样本视网膜图像2
     </td>
   </tr>
