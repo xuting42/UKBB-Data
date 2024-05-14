@@ -20,8 +20,7 @@
 
       2). INSTANCE:
       
-      ![image](https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png)
-      ![image](https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png)
-      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png" width="100px">
+      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1013711_21015_3_1.png" width="300px">
+      <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/1004519_21015_2_1.png" width="300px">
       
 
