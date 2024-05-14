@@ -12,7 +12,7 @@
 
    ### 1. Retianl images
    
-   Dataset path: */SERI_UKbiobank/1_Fundus_Images*
+   Dataset path: */scratch/users/nus/hongyu.h/SERI_UKbiobank/1_Fundus_Images*
 
    #### a. #NUMBER
       UKBB_FP_01 : 46514  
@@ -23,7 +23,7 @@
       Total count of retinal images：180027  
 
    #### b. INSTANCE
-   Interpretation of the naming format： *Participants ID_Data field_Instances_Array.*  
+   Interpretation of the naming format： *Participants ID_Data field_Instances_Array*  
    Detailed information is available on the official website.
    
   <table>
@@ -40,6 +40,21 @@
 </table>
 
 ### 2.Health-related information
+Dataset path: */scratch/users/nus/hongyu.h/SERI_UKbiobank/2_Phenptype*
+
+The raw data we possess is stored in the *"/0_Header_Tab"* folder, and the other folders contain the organized data required for 
+Pro. Cheng's other projects.
+
+In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the txt file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKB website and then check if the header contains the corresponding data.
+
+   #### Example of extracting ethnic data
+  If we want to extract ethnic data, we need to go to the [UKBB website](https://biobank.ndph.ox.ac.uk/showcase/search.cgi) and find the field ID for ethnic data. 
+  
+      
+
+
+
+
 
 #### Reference
 
