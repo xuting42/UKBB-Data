@@ -12,7 +12,7 @@
 
    ### 1. Retianl images: /SERI_UKbiobank/1_Fundus_Images
 
-      #### 1). NUMBER：
+      #### a. NUMBER：
         UKBB_FP_01 : 46514  
         UKBB_FP_02 : 40826  
         UKBB_FP_03 : 38786  
@@ -20,7 +20,7 @@
         UKB_new_2024: 1169 + 949 + 1154 + 1 +923 = 4196  
         Total count of retinal images：180027  
 
-      #### 2). INSTANCE:
+      #### b. INSTANCE:
       
      <table>
   <tr>
