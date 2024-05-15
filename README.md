@@ -6,7 +6,7 @@
    Homepage of the dataset： https://www.ukbiobank.ac.uk/
 
 ## 2. Our current dataset (continuously updated)
-  The data we currently possess mainly includes: Retinal images, and health-realted information.
+  The data we currently possess mainly includes: Retinal images, and health-realted data.
    
   Dataset path:  */scratch/users/nus/hongyu.h*
 
@@ -39,16 +39,45 @@
   </tr>
 </table>
 
-### 2.Health-related information
+### 2.Health-related data
 Dataset path: */scratch/users/nus/hongyu.h/SERI_UKbiobank/2_Phenptype*
 
 The raw data we possess is stored in the *"/0_Header_Tab"* folder, and the other folders contain the organized data required for 
 Pro. Cheng's other projects.
 
-In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the txt file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKB website and then check if the header contains the corresponding data.
+In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the header file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKB website and then check if the header files contain the corresponding data.
 
    #### Example of extracting ethnic data
   If we want to extract ethnic data, we need to go to the [UKBB website](https://biobank.ndph.ox.ac.uk/showcase/search.cgi) and find the field ID for ethnic data. 
+ 
+  <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/biobank_search.png" width="500px">
+  
+  Now, it can be found that the field ID for ethnic data is 21000, and detailed information about the [ethnic data](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000) can also be obtained.
+
+  Next, we need to extract the ethnic data from the header file. 
+  
+  First, let's find the location of the ethnic data within the header file.
+
+  `grep -n '21000' *.txt` 
+
+  We can obtain the search result
+
+```
+D3_ukb41252_tab_8330_header.txt:4737:  4737  f.20160.0.0
+D3_ukb41252_tab_8330_header.txt:4738:  4738	f.20160.1.0  
+D3_ukb41252_tab_8330_header.txt:4739:  4739	f.20160.2.0  
+D3_ukb41252_tab_8330_header.txt:4740:  4740	f.20160.3.0
+```
+According to the ethnic data detailed information, we select 'f.20160.0.0.', which is located at row 4737 in *D3_ukb41252_tab_8330_header.txt*.
+
+Then, we can extract the ethnic data from the corresponding tab file.
+
+`cut -f 1,4737  /scratch/users/nus/hongyu.h/SERI_UKBiobank/2_Phenotype/ukb41252.tab >  xxx/ethnic.txt`
+
+Through the simple steps mentioned above, we can locate and extract the necessary data for the project.
+
+
+  
   
       
 
