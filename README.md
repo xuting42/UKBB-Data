@@ -46,7 +46,7 @@ Dataset path: */scratch/users/nus/hongyu.h/SERI_UKbiobank/2_Phenptype*
 The raw data we possess is stored in the *"/0_Header_Tab"* folder, and the other folders contain the organized data required for 
 other projects.
 
-In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the header file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKB website and then check if the header files contain the corresponding data.
+In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the header file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKBB website and then check if the header files contain the corresponding data.
 
    #### Example of extracting ethnic data
   If we want to extract ethnic data, we need to go to the [UKBB website](https://biobank.ndph.ox.ac.uk/showcase/search.cgi) and find the field ID for ethnic data. 
