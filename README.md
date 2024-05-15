@@ -43,11 +43,13 @@
 ### 2.Health-related data
 Dataset path: */scratch/users/nus/hongyu.h/SERI_UKbiobank/2_Phenptype*
 
-The raw data we possess is stored in the *"/0_Header_Tab"* folder, and the other folders contain the organized data required for 
-other projects.
+The raw data we have is stored in the *"/0_Header_Tab"* folder, and the other folders contain the organized data required for  other projects.
 
-In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the header file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKBB website and then check if the header files contain the corresponding data.
+In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The .tab file serves as the main data file, and the header file is created by extracting the header from the main data file. 
 
+Therefore, if you want to find the data needed for your project, you can search for the field ID on the UK Biobank website and then check if the header files contain the field ID.
+
+****
    #### Example of extracting ethnic data
   If we want to extract ethnic data, we need to go to the [UKBB website](https://biobank.ndph.ox.ac.uk/showcase/search.cgi) and find the field ID for ethnic data. 
  
@@ -55,7 +57,7 @@ In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding
   
   It can be found that the field ID for ethnic data is 21000, and detailed information about the [ethnic data](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000) can also be obtained.
   
-  First, let's find the location of the ethnic data within the header file.
+  Next, let's find the location of the ethnic data within the header file.
 
   `grep -n '21000' *.txt` 
 
@@ -75,11 +77,11 @@ Then, we can extract the ethnic data from the corresponding tab file.
 
 Through the simple steps mentioned above, we can locate and extract the necessary data for the project.
 
+****
+
 ## 3.Our project data
 
-Hey everyone.
-
-I've gone ahead and created a *"3_Project"* folder to help keep our project data organized. Feel free to create your own subfolders within it to store any data you've prepared for your specific needs.
+I've created a *"3_Project"* folder to help keep our project data organized. Feel free to create your own subfolders within it to store any data you've prepared for your specific needs.
 
 To make things easier, I've also set up a *"basic"* folder that has essential data like gender and ethnic, since most of our projects rely on this info. Having it all in one place should save us some time and effort.
 
