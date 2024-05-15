@@ -1,6 +1,6 @@
 # UKBB-Data
 
-## 1. Dataset Overview
+## 1. Dataset description
    The UK Biobank is a large-scale, population-based cohort study involving over 500,000 UK residents aged 40–69 years. Recruitment took place between 2006 and 2010, during which participants completed extensive health questionnaires, underwent detailed physical assessments, and provided biological samples. The study tracked health-related events through data linkage to hospital admission records and mortality registries. In 2009, the UK Biobank introduced ophthalmic examinations to further expand the scope of the collected data[[1]](https://bjo.bmj.com/content/bjophthalmol/107/4/547.full.pdf).  
    
    Homepage of the dataset： https://www.ukbiobank.ac.uk/
