@@ -24,7 +24,7 @@
 
    #### b. INSTANCE
    Interpretation of the naming format： *Participants ID_Data field_Instances_Array*  
-   Detailed information is available on the official website.
+   Detailed information is available on the [official website](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21015).
    
   <table>
   <tr>
@@ -43,7 +43,7 @@
 Dataset path: */scratch/users/nus/hongyu.h/SERI_UKbiobank/2_Phenptype*
 
 The raw data we possess is stored in the *"/0_Header_Tab"* folder, and the other folders contain the organized data required for 
-Pro. Cheng's other projects.
+other projects.
 
 In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding *xxx.tab* file. The tab file serves as the main data file, while the header file is created by extracting the header from the main data file. Therefore, if you want to understand the data needed for your project, you can search for the corresponding field ID on the UKB website and then check if the header files contain the corresponding data.
 
@@ -52,9 +52,7 @@ In the *"/0_Header_Tab"* folder, we have *header.txt* file and its corresponding
  
   <img src="https://github.com/xuting42/UKBB-Data/blob/main/imgs/biobank_search.png" width="500px">
   
-  Now, it can be found that the field ID for ethnic data is 21000, and detailed information about the [ethnic data](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000) can also be obtained.
-
-  Next, we need to extract the ethnic data from the header file. 
+  It can be found that the field ID for ethnic data is 21000, and detailed information about the [ethnic data](https://biobank.ndph.ox.ac.uk/showcase/field.cgi?id=21000) can also be obtained.
   
   First, let's find the location of the ethnic data within the header file.
 
@@ -76,6 +74,15 @@ Then, we can extract the ethnic data from the corresponding tab file.
 
 Through the simple steps mentioned above, we can locate and extract the necessary data for the project.
 
+## 3.Our project data
+
+Hey everyone.
+
+I've gone ahead and created a *"3_Project"* folder to help keep our project data organized. Feel free to create your own subfolders within it to store any data you've prepared for your specific needs.
+
+To make things easier, I've also set up a *"basic"* folder that has essential data like gender and ethnic, since most of our projects rely on this info. Having it all in one place should save us some time and effort.
+
+Let me know if you have any thoughts or suggestions!
 
   
   
